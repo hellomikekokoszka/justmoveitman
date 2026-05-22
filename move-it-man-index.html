@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Move It, Man. | Specialty Transport</title>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f5f7fa;
+      color:#111827;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    header{
+      background:#fff;
+      border-bottom:1px solid rgba(0,0,0,.08);
+      position:sticky;
+      top:0;
+      z-index:100;
+    }
+
+    .nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 0;
+    }
+
+    .logo{
+      font-size:1.5rem;
+      font-weight:900;
+      color:#07142b;
+    }
+
+    .logo span{
+      color:#1d4ed8;
+    }
+
+    .btn{
+      background:#1d4ed8;
+      color:white;
+      text-decoration:none;
+      padding:14px 22px;
+      border-radius:10px;
+      font-weight:700;
+      display:inline-block;
+    }
+
+    .hero{
+      padding:120px 0 100px;
+      background:linear-gradient(to bottom right,#ffffff,#edf2f7);
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:60px;
+      align-items:center;
+    }
+
+    h1{
+      font-size:4rem;
+      line-height:1;
+      margin-bottom:24px;
+      color:#07142b;
+    }
+
+    h1 span{
+      color:#1d4ed8;
+    }
+
+    .hero p{
+      font-size:1.15rem;
+      color:#374151;
+      margin-bottom:32px;
+    }
+
+    .card{
+      background:white;
+      border-radius:24px;
+      padding:40px;
+      box-shadow:0 15px 40px rgba(0,0,0,.08);
+    }
+
+    .card h3{
+      margin-bottom:20px;
+      font-size:1.5rem;
+    }
+
+    .list{
+      display:grid;
+      gap:14px;
+    }
+
+    .list div{
+      background:#f5f7fa;
+      padding:16px;
+      border-radius:14px;
+      font-weight:700;
+    }
+
+    section{
+      padding:90px 0;
+    }
+
+    .title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .title h2{
+      font-size:2.7rem;
+      margin-bottom:14px;
+      color:#07142b;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:24px;
+    }
+
+    .service{
+      background:white;
+      padding:30px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.06);
+    }
+
+    .service h3{
+      margin-bottom:10px;
+    }
+
+    .dark{
+      background:#07142b;
+      color:white;
+    }
+
+    .dark .title h2{
+      color:white;
+    }
+
+    .dark .service{
+      background:rgba(255,255,255,.06);
+      color:white;
+      box-shadow:none;
+    }
+
+    .cta{
+      text-align:center;
+      background:linear-gradient(135deg,#07142b,#1d4ed8);
+      color:white;
+      padding:70px 30px;
+      border-radius:30px;
+    }
+
+    .cta h2{
+      font-size:3rem;
+      margin-bottom:20px;
+    }
+
+    footer{
+      background:#07142b;
+      color:white;
+      padding:50px 0;
+      text-align:center;
+    }
+
+    @media(max-width:900px){
+
+      .hero-grid{
+        grid-template-columns:1fr;
+      }
+
+      h1{
+        font-size:3rem;
+      }
+
+      .cta h2{
+        font-size:2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">MOVE IT,<span> MAN.</span></div>
+
+    <a href="tel:3865381455" class="btn">
+      Call 386-538-1455
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+
+  <div class="container hero-grid">
+
+    <div>
+
+      <h1>
+        Specialty Transport
+        Built For The
+        <span>Heavy Stuff.</span>
+      </h1>
+
+      <p>
+        Safes. Pianos. Pool tables. Hot tubs. High-end furniture. POD loading. Marketplace pickups. We handle the difficult, expensive, awkward stuff other movers suddenly become “booked out” for. Funny how that works.
+      </p>
+
+      <a href="tel:3865381455" class="btn">
+        Get A Quote
+      </a>
+
+    </div>
+
+    <div class="card">
+
+      <h3>What We Move</h3>
+
+      <div class="list">
+        <div>Gun Safes & Vaults</div>
+        <div>Pianos & Baby Grands</div>
+        <div>Pool Tables</div>
+        <div>Hot Tubs & Spas</div>
+        <div>Designer Furniture</div>
+        <div>POD Loading & Unloading</div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <div class="container">
+
+    <div class="title">
+      <h2>Not Your Average Movers</h2>
+
+      <p>
+        Move It, Man was built around specialty jobs where precision matters.
+      </p>
+    </div>
+
+    <div class="grid">
+
+      <div class="service">
+        <h3>White-Glove Handling</h3>
+        <p>
+          Protection-first transport for high-value items and difficult moves.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Experienced Logistics</h3>
+        <p>
+          Tight corners, stairs, difficult access points. We plan before we lift.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Florida Based</h3>
+        <p>
+          Serving homeowners, businesses, interior designers, and collectors.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="dark">
+
+  <div class="container">
+
+    <div class="title">
+      <h2>We’d Rather Say No Than Damage Your Property</h2>
+
+      <p>
+        Not every job should be forced. That’s why people trust us with the stuff they actually care about.
+      </p>
+    </div>
+
+    <div class="grid">
+
+      <div class="service">
+        <h3>Safes</h3>
+        <p>Heavy-duty transport and placement.</p>
+      </div>
+
+      <div class="service">
+        <h3>Pianos</h3>
+        <p>Careful handling for delicate instruments.</p>
+      </div>
+
+      <div class="service">
+        <h3>Pool Tables</h3>
+        <p>Disassembly, transport, and leveling.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <div class="container">
+
+    <div class="cta">
+
+      <h2>Need Something Heavy Moved?</h2>
+
+      <p style="max-width:700px;margin:0 auto 30px;">
+        Tell us what you’ve got and where it needs to go. We’ll tell you honestly what it takes to do it safely and correctly. Revolutionary concept in 2026, apparently.
+      </p>
+
+      <a href="tel:3865381455" class="btn">
+        Call Now
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <div class="container">
+    <h3>MOVE IT, MAN.</h3>
+    <p>Specialty Transport Across Florida</p>
+    <p>386-538-1455</p>
+  </div>
+
+</footer>
+
+</body>
+</html>
